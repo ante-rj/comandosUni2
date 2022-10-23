@@ -1,0 +1,308 @@
+Comandos usados: (
+
+
+0. sudo apt update && sudo apt upgrate ( para actualizar y mejorar )
+
+
+1. pwd ( en directorio estamos )
+
+
+2. ls ( muestra en contenido del diretorio ej: capetes/archivo/documentos que contiene el directorio ( ls -R, Muestra toda la informacion de la/s carpetas de en estamos ( ls -a muestra todos los archivos ocultos de la/s carpetas ( ls -l muestra todos permisos de las carpetas del directorio ))))
+
+
+3. cd ( para cambiar de directorio (con cd puede ir directamente a home, con .. se retrosede, con / me lleva a la raiz ))
+
+
+4. clear ( para linpiar la terminal )
+
+
+5. mkdir ( podemos crear una nueva carpeta )
+
+
+6. rmdir ( podemos eliminar una carpeta )
+
+
+7. touch ( para crear un archivo (es inportante que tipo de archivo va a ser ej: .txt .py .html ))
+
+
+8. rm ( para eliminar un archivo ( rm -rf para eliminar una carpeta ))
+
+
+9. tar -cvzf "nombre del nuevo archivo comprimido.tar/zip2" "nombre el archivo no comprimido" ( para comprimir y descomprimir un archivo, .zip/.tar/etc ( zip!!! ))
+
+
+10. zcat ( muestra el contenido del archivo comprimido ) 
+
+
+11. cp ( para copiar un archivo )
+
+
+12. mv ( para mover archivos y para canbiar el nombre (para moverlo se tiene que poner la ubicacion completa ej: ~/Desktop/ ))
+
+
+13. sudo ( nos permite ejecutar una tarea con privilegis de root )
+
+
+14. su ( para entrar en modo root/administrador (exit para salir de ese modo ))
+
+
+15. exit (causa la terminación normal del proceso, para salir de un proseso de la terminal, para salir de la terminal )
+
+
+16. ps ( proporciona procesos iniciados en la terminal ( ps -e enumera todos los procesos en el sistema, ps -f le da más detalles ))
+
+
+17. sudo kill "2415" ( termina un proceso ( primero hacer un ps -e para ver el id del proceso que vamos a cerrar ( con ps -e | grep "firefox" podemos buscar el "numero de un programa en espesifico ))) 
+
+
+18. sudo shutdown ( apaga la pc (sudo shutdown -r reinicia la pc)
+
+
+19. whatis ( muestra la informacion de que hace un comando ) 
+
+
+20. nano ( para crear editar y ver un archivo )
+
+
+21. cat ( muestra la informacion de un archivo )
+
+
+22. du ( para ver cuanto pesa una carpeta/archivo ( du -h (...) para que se entienda ))
+
+
+23. df ( para mostrar cuanto almacenamiento esta usando el sistema, lo muestra en kilobites ( para verlo en mebites: df -m ))
+
+
+24. !! ( nos permite reutilizar el ultimo comando )
+
+
+25. file ( nos permite ver informacion sobre el tipo del archivo, nos muestra el tipo de informacion de ese archivo )
+
+
+26. alias ... = ... ( permite "crear" un comando para para simplificar un comando mas largo ej: c = clear )
+
+
+27. unalias ... ( eliminar un alias existente )
+
+
+28. top/htop ( informacion de la pc )
+
+
+29. locate ( para buscar algun archivo/carpeta/.exe )
+
+
+30. which ( permite ver donde esta instalado un programa )
+
+ 
+)
+
+
+
+
+
+
+
+
+
+
+Comandos poco usados: (
+
+
+31. whoami ( el usuario )
+
+
+32. |  ( es para concatenar dos comandos (ej: https://www.guru99.com/linux-pipe-grep.html)) 
+
+
+33. less (  para poner un archivo en "pantella conpleta" (q para salir ))
+
+
+34. help ( para obtener informacion de un comando (tiene que ir despues de el comando, ej: ls help (o www.linux.org)))
+
+
+35. man ( para buscar informacion de un comando en internet (o www.linux.org))
+
+
+36. info ( para ver toda la informacion de todos los comandos )
+
+
+37. hostname ( muestra el nombre del host ( hostname -i muetra la ip del host )
+
+
+38. ping "google.com" ( se utiliza para comprobar su conexión a un servidor, comprueba si puede conectarse al servidor y regresa ( ctrl c para salir ))
+
+
+39. host ( muestra la dirección IP del nombre de dominio dado y viceversa ) 
+
+
+40. ifconfig ( para buscar y ver la configuración de red y su ip, configurar una interfaz de red )
+
+
+41. ip a ( una versión actualizada del comando ifconfig. Se utiliza para asignar un Dirección IP, mostrar/manipular dispositivos de red, interfaces y túneles )
+
+
+42. id ( se usa para averiguar nombres de usuarios y grupos de ID )
+
+
+43. useradd ( para crear un nuevo usuario o actualizar la información predeterminada del nuevo usuario ( para cambiarde ususario: su - "usuario2" ))
+
+
+44. adduser ( agregar un usuario o grupo al sistema ( para cambiarde ususario: su - "usuario2" ))
+
+
+45. passwd ( se utiliza para crear y cambiar la contraseña de un usuario ( se tiene que ser administrador para cambiarla (para cambiarde ususario: su - "usuario2" )))
+ 
+
+46. groupadd/newgroup ( crear un nuevo grupo de usuarios, sintaxis: sudo usermod -a -G newgroup usrl ( para cambiarde ususario: su - "usuario2" ))
+
+
+47. more ( para ver un archivo )
+
+
+48. grep ( para buscar un patrón específico en un archivo o grupo de archivos (devops/youtube: https://www.youtube.com/watch?v=s8eXHaOqO4g ))
+
+
+49. cmp ( para comparar dos archivos (con comm se muestran los dos archivos ))
+
+
+50. "" ( podemos abrir una carpeta con un espacio (tambien se puede hacer con \ ))
+
+ 
+51. sed ( permite buscar cadenas de texto palabras o patrones de palabras y reemplazarlos (sintaxis: "s/Ubuntu/kali/" ))
+
+
+52. history ( para ver el historial de la terminal )
+
+
+53. uname -a ( muestra informacion del kanel actual )
+
+
+54. free -m/-g ( muetra datos de la memoria ram )
+
+
+55. vmstat /-s ( para ver estadísticas de memoria )
+
+
+56. tail ( muestra las ultimas 10 lineas del contenido del archivo (con -"20" podemos idicar el numero de lineas que se mostraran (es util para leer un mensaje de error )))
+
+
+57. tail ( para mostrar las ultimas lineas de un archivo )
+
+
+58. head ( muestra las 10 primeras lineas de un archivo (con -"20" podemos idicar el numero de lineas que se mostraran))
+
+
+59. tac ( muestra el contenido de un archivo en orden inverso )
+
+
+60. date ( muestra la fecha y hora )
+
+
+61. cal ( muestra un calendario  con el mes actual ( con cal "2022" mostrara todo el calendario del ese año)
+
+
+62. time ( muestra cuanto tienpo se tarda un comando en ejecutrace, y resumir el uso de recursos del sistema )
+
+
+63. sleep ( se usa para retener la terminal durante el tiempo que le digamos, toma el tiempo en segundo ej: sleep 10(segundos ))
+
+
+64. uptime ( el tiempo desde que la máquina ha estado activa )
+
+
+65. cmatrix ( cmatrix!!! )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?(  https://www.youtube.com/watch?v=QDTdK9gQJH4
+
+66. mount ( ??? )
+
+
+67. echo ( ??? )
+
+
+68. is -l ( video 38, video 39, video 40 )
+
+
+69. vi ( ?????? )
+
+
+70. find ( ????????????????????????? )
+
+
+71. culr ifconfig.me ( video 42 ??????? )
+
+
+72. sudo ufw enable ( video 44 ???)
+
+
+73. sudo ufw status ( video 44 ??? )
+
+ 
+74. sudo ufw allow http ( video 44 ??? )
+
+
+75. sudo ufw deny http ( video 44 ??? )
+
+
+76. sudo deny proto tcp from 13.37.46.71 to any port 22 ( video 44 ??? )
+
+
+77. sudo ufw delete http ( video 44 ??? )
+
+
+78. sudo ufw reset ( video 44 ??? )
+
+
+79. "codigo en c" video 48/50 ( ??? )
+
+
+80. "servidor apache" video 49 ( ??? )
+
+
+81. shell scripting  video 51 ( ??? ) 
+
+
+82. > ( ??? )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nota: con alt gr y q se hace el @, con alt gr y 4 se hace el ~, para poner una contraseña de root tenemos que poner sudo passwd root, shift + ctrl + c/v, con alt gr y 1 se hace el |, ctrl + l = clear, 
+directorio = carpeta, cd + tab + tab, fichero = archivo, si el archivo/carpeta,  enpiesa por un punto es un archivo/carpeta oculto/s, * significa que estamos seleccionando todos los archivos del directorio

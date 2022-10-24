@@ -42,7 +42,7 @@ Comandos mas usados [
   13# git checkout rama2 ( para cambiar de rama y de vercion ( para cambiar de vercion de un archivo se tiene que poner su id ))
 
 
-  14# git merge ( para unir dos ramas en una sola ) 
+  14# git merge (rama2) ( para unir dos ramas en una sola ) 
 
 
 
